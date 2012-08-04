@@ -119,7 +119,7 @@ shorten() {
     echo "Error: Something went wrong."
   else
     save $longUrl $shortened
-    echo $shortened | pbcopy && echo $shortened
+    echo $shortened
   fi
 }
 
